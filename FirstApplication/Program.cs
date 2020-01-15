@@ -11,7 +11,15 @@ namespace FirstApplication
     {
         static void Main(string[] args)
         {
+            Console.BackgroundColor = ConsoleColor.DarkMagenta;
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine("Shaun");
+            Console.BackgroundColor = ConsoleColor.Green;
+            Console.WriteLine("Poweshiek");
 
+            Console.Beep(2000, 500);
+
+            Console.ReadKey();
         }
     }
 }
